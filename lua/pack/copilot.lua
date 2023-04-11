@@ -3,7 +3,7 @@ local M = {}
 
 function M.config()
     G.g.copilot_no_tab_map = true
-    G.map({ {'i', '<Right>', 'copilot#Accept("<Right>")', {script = true, silent = true, expr = true}} })
+    G.map({ {'i', '<Tab>', 'copilot#Accept("<Tab>")', {script = true, silent = true, expr = true}} })
 end
 
 function M.setup()

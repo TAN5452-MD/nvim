@@ -1,5 +1,14 @@
 local G = require('G')
-
+vim.keymap.set( 'i', 'jk',          '<ESC>')
+    vim.api.nvim_create_autocmd({ "InsertLeave" }, {
+        callback = function()
+            vim.fn.execute("silent! write")
+            vim.notify("Autosaved!", vim.log.levels.INFO, {})
+        end,
+    })
+local km = vim.keymap
+km.set("n", "J", "5j")
+km.set("n", "K", "5k")
 G.map({
     -- 设置s t 无效 ;=: ,重复上一次宏操作
     { 'n', 's',           '<nop>',            {} },
