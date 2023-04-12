@@ -24,7 +24,7 @@ require('packer').startup({
     function(use)
         -- packer 管理自己的版本
         use { 'wbthomason/packer.nvim' }
-
+        use     'sainnhe/everforest'
         -- 启动时间分析
         use { "dstein64/vim-startuptime", cmd = "StartupTime" }
 
