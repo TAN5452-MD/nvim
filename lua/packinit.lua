@@ -10,6 +10,7 @@ if G.fn.empty(G.fn.glob(install_path)) > 0 then
     packer_bootstrap = true
 end
 
+   G.cmd('set termguicolors')
 -- 所有插件配置分 config 和 setup 部分
 -- M.config() 发生在插件载入前 一般为 let g:xxx = xxx 或者 hi xxx xxx 或者 map x xxx 之类的 配置
 -- M.setup()  发生在插件载入后 一般为 require('xxx').setup() 之类的配置

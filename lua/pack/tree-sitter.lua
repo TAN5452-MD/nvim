@@ -20,7 +20,7 @@ function M.config()
 --
 --        ["@property"] = { fg = 172 };
 --        ["@field"] = { fg = 150 };
-        ["@method"] = { fg = 203 };
+--        ["@method"] = { fg = 203 };
 --        ["@method.call"] = { fg = 9 };
 --        ["@parameter"] = { fg = 9 };
 --
@@ -43,13 +43,14 @@ function M.config()
 --        ["@number"] = { fg = 37 };
 --        ["@boolean"] = { fg = 37 };
 --
-      ["@tag"] = { fg = 150 };
-       ["@tag.attribute"] = { fg = 203 };
+--        ["@text"] = {fg = 255};
+--      ["@tag"] = { fg = 171 };
+--       ["@tag.attribute"] = { fg = 203 };
 --        ["@tag.delimiter"] = { fg = 150 };
 --        ["@conditional.ternary"] = { fg = 1 };
 --        ["@punctuation.special"] = { fg = 166 };
 --
-        ["@text.literal"] = { fg = 18 };
+--        ["@text.literal"] = { fg = 18 };
 --
 --        ["@text.todo.unchecked"] = { fg = 172 };
 --        ["@text.todo.checked"] = { fg = 37 };
