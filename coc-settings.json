@@ -42,7 +42,7 @@
     "git.addGBlameToBufferVar": true,
     "git.splitWindowCommand": "below 10sp",
     "java.clean.workspace": true,
-    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown","vue"],
+    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-14",
